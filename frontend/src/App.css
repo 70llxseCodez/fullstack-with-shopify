@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  width: 300px;
+}
+
+.card-item canvas {
+  width: 50%;
+}
