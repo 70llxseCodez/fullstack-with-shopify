@@ -21,7 +21,7 @@ const shopifyGraphQLQuery = `
         node {
           id
           bodyHtml
-          images(first: 2) {
+          images(first: 1) {
             nodes {
               src
             }
