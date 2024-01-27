@@ -1,1 +1,1 @@
-# Fullstack shopify app
+# Fullstack shopify app with little front-end & back-end
