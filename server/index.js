@@ -16,12 +16,12 @@ const shopify = new Shopify({
 
 const shopifyGraphQLQuery = `
   query {
-    products(first: 0) {
+    products(first: 10) {
       edges {
         node {
           id
           bodyHtml
-          images(first: 1) {
+          images(first: 2) {
             nodes {
               src
             }
