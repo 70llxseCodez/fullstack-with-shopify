@@ -16,7 +16,7 @@ const shopify = new Shopify({
 
 const shopifyGraphQLQuery = `
   query {
-    products(first: 10) {
+    products(first: 0) {
       edges {
         node {
           id
